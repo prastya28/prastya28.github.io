@@ -9,11 +9,11 @@ description:
 keywords:
 author: Faridl Prastya
 language: en
-timezone:
+timezone: asia/jakarta
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://prastya.id
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,4 +79,12 @@ theme: cactus
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/prastya28/prastya28.github.io
+  branch: master
+  message:
+  name: farpras
+  email: farpras48@live.com
+  extend_dirs: /
+  ignore_hidden: false # default is true
+  ignore_pattern: regexp # whatever file that matches the regexp will be ignored when deploying
